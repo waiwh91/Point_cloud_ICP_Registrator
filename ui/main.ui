@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1625</width>
+    <height>863</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Radar_ICT_Tool</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="Pcd_template" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>701</width>
+      <height>381</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="Ict_target" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>410</y>
+      <width>701</width>
+      <height>381</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="ict_result" native="true">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>10</y>
+      <width>731</width>
+      <height>641</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="input_template">
+    <property name="geometry">
+     <rect>
+      <x>1500</x>
+      <y>30</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>导入模版</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="input_target">
+    <property name="geometry">
+     <rect>
+      <x>1500</x>
+      <y>130</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>导入目标</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="start_ict">
+    <property name="geometry">
+     <rect>
+      <x>1500</x>
+      <y>230</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>开始配准</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save_matrix">
+    <property name="geometry">
+     <rect>
+      <x>1500</x>
+      <y>340</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>保存变换矩阵</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="matrix">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>660</y>
+      <width>731</width>
+      <height>131</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="load_matrix">
+    <property name="geometry">
+     <rect>
+      <x>1500</x>
+      <y>450</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>导入变换矩阵</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="transform_with_matrix">
+    <property name="geometry">
+     <rect>
+      <x>1500</x>
+      <y>560</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>预设变换</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="compare">
+    <property name="geometry">
+     <rect>
+      <x>1500</x>
+      <y>670</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>重叠对比</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1625</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

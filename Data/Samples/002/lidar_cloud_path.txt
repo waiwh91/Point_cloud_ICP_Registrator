@@ -1,0 +1,4 @@
+device_id: 0
+path: mondeo4/002/1719040752000000.pcd
+device_id: 1
+path: mondeo4/002/output.pcd
